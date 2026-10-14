@@ -1,15 +1,5 @@
-# Resume
+# Haotian (Jonathan) Li
 
-### Education
-- Department of Statistical and Actuarial Science, Western University
+Personal portfolio site. Single static page: [index.html](index.html).
 
-### Experience
-- Working as a research assistant under Rock Mechanics & Fracture Lab. Collect and analyze data through self-constructed model on Matlab. Study and investigate chaos theory. (2024)
-- Working as a research assistant under HydroClimEx Lab. Train and tune a large language model that predicts flood risks based on user's location, and communicates them to the targeted audiences. 
-
-### Skills
-- Proficient in Java, R and Matlab coding.
-- Experienced in model constructing.
-
-### Projects
-- 
+Contact: hli2526@uwo.ca

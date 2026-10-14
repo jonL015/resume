@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haotian (Jonathan) Li</title>
+<meta name="description" content="Statistics student at Western University working on LLM applications, computer vision and numerical simulation.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1f2328;
+    --muted: #59636e;
+    --line: #d1d9e0;
+    --accent: #0969da;
+    --chip: #eef2f6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1117;
+      --fg: #e6edf3;
+      --muted: #9198a1;
+      --line: #30363d;
+      --accent: #58a6ff;
+      --chip: #1c2330;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 64px 0 24px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 6px; }
+  .tagline { color: var(--muted); font-size: 1.1rem; margin: 0 0 16px; }
+  .links a { margin-right: 16px; }
+  nav { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 0; margin-top: 24px; }
+  nav a { margin-right: 18px; color: var(--muted); font-size: .95rem; }
+  nav a:hover { color: var(--accent); text-decoration: none; }
+  section { padding: 36px 0 4px; }
+  h2 { font-size: 1.35rem; margin: 0 0 16px; }
+  .item { margin-bottom: 26px; }
+  .item h3 { font-size: 1.05rem; margin: 0; }
+  .meta { color: var(--muted); font-size: .92rem; margin: 2px 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+  .chips li { background: var(--chip); border-radius: 999px; padding: 2px 12px; font-size: .9rem; margin: 0; }
+  .label { font-weight: 600; margin: 14px 0 6px; font-size: .95rem; }
+  footer { color: var(--muted); font-size: .9rem; padding: 40px 0 56px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Haotian (Jonathan) Li</h1>
+  <p class="tagline">Honours Statistics student at Western University, working on LLM applications, computer vision and simulation.</p>
+  <div class="links">
+    <a href="mailto:hli2526@uwo.ca">hli2526@uwo.ca</a>
+    <a href="https://github.com/jonL015">GitHub</a>
+    <span style="color:var(--muted)">London, Ontario</span>
+  </div>
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="research">
+  <h2>Research</h2>
+
+  <div class="item">
+    <h3>Flood Risk Assistant for Ontario Farmers</h3>
+    <p class="meta">Research Assistant, HydroClimEX Lab, Western University &middot; May 2026 &ndash; Present</p>
+    <ul>
+      <li>Building an LLM-powered assistant that estimates flood risk in Ontario and explains it to farmers in plain, tailored terms.</li>
+      <li>The assistant interviews each farmer about location, farm type and concerns, then produces a customized analysis.</li>
+      <li>Grounds answers with retrieval-augmented generation (RAG) over research papers, stream-gauge records, flood maps and watershed data to reduce hallucination.</li>
+      <li>Adapted from WildfireGPT (Xie et al., 2025) and applied to Canadian flood risk.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <h3>Agrotunnel Project: Computer Vision for Plant Health</h3>
+    <p class="meta">Research Assistant, FAST Research Group, Western University &middot; Sept 2026 &ndash; Present</p>
+    <ul>
+      <li>Developing computer vision models that use image and video data to predict plant growth and health over time, focusing on tomato crops.</li>
+      <li>Extending the group's published work on strawberry disease and ripeness detection to a new crop.</li>
+      <li>Organizing data and running analytical models with colleagues.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <h3>Chaos in a Bouncing Polygonal Die</h3>
+    <p class="meta">Research Assistant, Rock Mechanics Lab, Western University &middot; May &ndash; Oct 2025</p>
+    <ul>
+      <li>Simulated a bouncing regular polygonal die in MATLAB and mapped settling time and maximum horizontal extent across drop height, initial orientation and polygon order.</li>
+      <li>Ran a timestep convergence test to confirm the trends are reproducible.</li>
+      <li>Concluded the dynamics are complicated rather than strictly chaotic. First-author paper submitted to <em>AIP Advances</em>.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="item">
+    <p>Li, H., Xie, A. Y., Zheng, J. J., &amp; Li, B. Q. &ldquo;Exploring Chaos Theory through Numerical Simulations of a Bouncing Regular n-Sided Polygonal Die.&rdquo; <em>Submitted to AIP Advances</em>, August 2026.</p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="item">
+    <h3>Western University, London, Ontario</h3>
+    <p class="meta">Honours Specialization in Statistics &middot; Expected April 2027</p>
+    <ul>
+      <li>Dean's Honour List, 2023&ndash;present</li>
+      <li><strong>Completed:</strong> Linear Algebra, Calculus with Analysis for Statistics, Probability and Statistics I&ndash;II, Intermediate Probability, Mathematical Statistics, Regression, Generalized Linear Models, Statistical Programming, Introduction to Machine Learning, Introduction to Study Design</li>
+      <li><strong>In progress (2026&ndash;27):</strong> Time Series, Survival Analysis, Advanced Data Analysis, Advanced Statistical Computing, Data Analytics Consulting, Computer Science Fundamentals II</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p class="label">Programming</p>
+  <ul class="chips"><li>Python</li><li>R</li><li>MATLAB</li><li>Java</li></ul>
+  <p class="label">Tools &amp; frameworks</p>
+  <ul class="chips"><li>Streamlit</li><li>sentence-transformers</li><li>geopandas</li><li>Git</li></ul>
+  <p class="label">Methods</p>
+  <ul class="chips"><li>Retrieval-augmented generation</li><li>LLM application development</li><li>Regression / GLMs</li><li>Computer vision</li></ul>
+  <p class="label">Languages</p>
+  <ul class="chips"><li>English</li><li>Mandarin Chinese (bilingual)</li></ul>
+</section>
+
+<section id="work">
+  <h2>Work experience</h2>
+  <div class="item">
+    <h3>V-Sky Inc., Shenzhen, China</h3>
+    <p class="meta">Intern Engineer &middot; June &ndash; Sept 2024</p>
+    <ul>
+      <li>Supported optimization of the assembly process for multiple products, including high-precision cameras and document cameras.</li>
+      <li>Contributed to creating and translating marketing materials for a collaboration with Huawei.</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  Interested in data science, machine learning, LLMs and computer vision.
+</footer>
+
+</div>
+</body>
+</html>
