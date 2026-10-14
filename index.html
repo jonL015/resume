@@ -39,6 +39,11 @@
   h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 6px; }
   .tagline { color: var(--muted); font-size: 1.1rem; margin: 0 0 16px; }
   .links a { margin-right: 16px; }
+  .hero { display: flex; align-items: center; gap: 24px; }
+  .photo { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex: none; border: 1px solid var(--line); }
+  @media (max-width: 520px) {
+    .hero { flex-direction: column; align-items: flex-start; gap: 16px; }
+  }
   nav { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 10px 0; margin-top: 24px; }
   nav a { margin-right: 18px; color: var(--muted); font-size: .95rem; }
   nav a:hover { color: var(--accent); text-decoration: none; }
@@ -59,12 +64,17 @@
 <div class="wrap">
 
 <header>
-  <h1>Haotian (Jonathan) Li</h1>
-  <p class="tagline">Honours Statistics student at Western University, working on LLM applications, computer vision and simulation.</p>
-  <div class="links">
-    <a href="mailto:hli2526@uwo.ca">hli2526@uwo.ca</a>
-    <a href="https://github.com/jonL015">GitHub</a>
-    <span style="color:var(--muted)">London, Ontario</span>
+  <div class="hero">
+    <img class="photo" src="photo.jpg" alt="Portrait of Haotian (Jonathan) Li" width="120" height="120">
+    <div>
+      <h1>Haotian (Jonathan) Li</h1>
+      <p class="tagline">Honours Statistics student at Western University, working on LLM applications, computer vision and simulation.</p>
+      <div class="links">
+        <a href="mailto:hli2526@uwo.ca">hli2526@uwo.ca</a>
+        <a href="https://github.com/jonL015">GitHub</a>
+        <span style="color:var(--muted)">London, Ontario</span>
+      </div>
+    </div>
   </div>
   <nav>
     <a href="#research">Research</a>
